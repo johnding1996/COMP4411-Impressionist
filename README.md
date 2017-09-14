@@ -1,8 +1,10 @@
 # Impressionist
 Project 1 of COMP 4411, 2017Spring, HKUST
 
-## List of Features
+## Running Environment
+Visual C++ 2015
 
+## List of Features
 #### You must add the following features to the Impressionist program:
 1. [x] Implement 5 different brush types: single line, scattered lines, scattered points, (filled) circles, and scattered (filled) circles. See the sample solution for an example of each brush's appearance. Note that scattered brushes should sample from each location they color individually, not just use a single color for each splotch. 
 2. [x] Add sliders to control various brush attributes. You need to include sliders for the line thickness and brush angle, in addition to the existing brush size slider. 
@@ -58,5 +60,3 @@ Here is a list of suggestions for extending the program. You are encouraged to c
 19. [ ] ![bell]![bell]![bell]![bell] Extend the Impressionist program to work with video. The user should be able to load a series of images from a video and set up some initial parameters, and the program should automatically generate an impressionistic version of the video. The video should exhibit temporal coherency. 
  
 20. [ ] ![bell]![bell]![bell]![bell]![bell]![bell]![bell]![bell] Implement [Bayesian matting](http://grail.cs.washington.edu/projects/digital-matting/image-matting/)
-
-######Note: When downloading images from the sources above, remember to save them in BMP format!
